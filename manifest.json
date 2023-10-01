@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Tutanota Toolbar Button",
+  "description": "Adds a Tutanota button to the toolbar.",
+  "version": "1.0",
+  "author": "General Buch",
+  "applications": {
+    "gecko": {
+      "id": "{10679816-609d-11ee-8c99-0242ac120002}",
+      "strict_min_version": "102.0"
+    }
+  },
+  "icons": {
+    "948": "tutanota-icon.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
